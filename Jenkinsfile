@@ -1,6 +1,6 @@
 pipeline {
     agent{
-        
+        'RHEL8'
     }
     stages {
         stage('Build') { 
